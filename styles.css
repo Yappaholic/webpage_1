@@ -1,7 +1,7 @@
 *{
  font-family: Roboto, sans-serif;
 }
-ul, .logo, .h1, button, .copyright{
+ul, .logo, .h1, button, .copyright, h3{
   color: #f9faf8;
 }
 body{
@@ -44,6 +44,7 @@ ul{
  flex-grow: 0;
  max-width: 400px;
  align-items: flex-start;
+ justify-content: center;
  padding-bottom: 20px;
 }
 .image.big{
@@ -80,24 +81,73 @@ button.two{
   font-weight: 1000;
   text-align: center;
 }
-.image.box{
-  padding: 70px 40px;
+.pics .image.box{
   border: 2px solid #3882f6; 
   border-radius: 12px;
+  height: 150px;
+  width: 150px;
 }
 .pics{
   display: flex;
   flex-direction: row;
-  gap: 48px;
-  padding: 0px 90px 10px 90px;
+  gap: 36px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+}
+.info.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .info.box .simple.black{
   display: flex;
   flex-wrap: wrap;
   font-size: 18px;
   text-align: center;
+  max-width: 205px;
 }
+.quote.box{
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.quote.text{
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 0;
+  margin: 0;
+  max-width: 700px;
+}
+.quote.father{
+  font-size: 18px;
+  font-weight: 800;
+  text-align: right;
+  padding-right: 28px;
+}
+.lower{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.lower.box{
+  border-radius: 6px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  padding: 10px 50px 20px 50px;
+}
+.invite.text{
+  margin-right: auto;
+}
+.two{
+  margin: auto;
 }
